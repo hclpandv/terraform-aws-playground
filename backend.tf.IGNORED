@@ -1,0 +1,9 @@
+terraform {
+  backend "s3" {
+    bucket     = "vikiscripts-tf-state"
+    key        = "terraform.tfstate"
+    region     = "us-east-1"
+    access_key = "access-key-for-s3-bucket"
+    secret_key = "access-key-for-s3-bucket"
+  }
+}

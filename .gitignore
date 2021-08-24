@@ -1,0 +1,5 @@
+.terraform/
+*creds.auto.tfvars
+*.tfstate
+*.backup
+backend.tf

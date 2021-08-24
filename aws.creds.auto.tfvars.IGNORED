@@ -1,0 +1,6 @@
+#--------------------------------------------------------------
+# AWS Terraform provider 
+#--------------------------------------------------------------
+access_key = "your-aws-access-key"     #Typicaly access_key of tfuser seperately created for terraform 
+secret_key = "your-aws-secret-key"
+
