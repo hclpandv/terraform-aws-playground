@@ -7,7 +7,7 @@ resource "aws_vpc" "vpc-vikinet" {
   }
 }
 
-resource "aws_subnet" "jumphosts" {
+resource "aws_subnet" "snet-jumphosts" {
   vpc_id     = aws_vpc.vpc-vikinet.id
   cidr_block = "198.168.1.0/24"
 
@@ -17,7 +17,7 @@ resource "aws_subnet" "jumphosts" {
 }
 
 
-resource "aws_subnet" "snetweb" {
+resource "aws_subnet" "snet-web" {
   vpc_id     = aws_vpc.vpc-vikinet.id
   cidr_block = "198.168.2.0/24"
 
