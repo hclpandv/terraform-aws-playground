@@ -1,7 +1,7 @@
 resource "aws_network_interface" "nic-web01" {
   subnet_id   = aws_subnet.snet-web.id
   private_ips = ["198.168.2.5"]
-
+  # Test
   tags = {
     Name = "nic-pvt-web01"
   }
